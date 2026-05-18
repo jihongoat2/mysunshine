@@ -350,8 +350,8 @@ a {
   transform: translateY(-50%);
   color: var(--color-white);
   font-size: 2.5rem;
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -365,11 +365,11 @@ a {
 }
 
 .photo-modal__nav--prev {
-  left: calc(0.5rem + var(--safe-left));
+  left: 0;
 }
 
 .photo-modal__nav--next {
-  right: calc(0.5rem + var(--safe-right));
+  right: 0;
 }
 
 .photo-modal__container {
